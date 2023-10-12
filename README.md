@@ -46,7 +46,7 @@ As shown above, the only file that the others group can write on is the file ```
 
 Inputting the full command and arguments I will type ```chmod o-w project_k.txt```, where ```chmod``` is the command to change directory/file permissions. Next, ```o``` indicates I am changing the permission for the others group followed by  ```-w``` to indicate I am removing their write permission. Lastly ```project_k.txt```is the file on which I am removing their write access.
 
-After removing write access for the others group, I use the command ```ls -l``` once again to show all the files in projects, as well as full details, which include the updated user permissions. Now, the others group no longer has write access for ```project_k.txt```, which can be seen in the image below.
+After removing write access for the others group, I use the command ```ls -l``` once again to show all the files in ```projects```, as well as full details, which include the updated user permissions. Now, the others group no longer has write access for ```project_k.txt```, which can be seen in the image below.
 
 ![Changing the file permissions of the others group](https://i.imgur.com/vRYArcm.png)
 
